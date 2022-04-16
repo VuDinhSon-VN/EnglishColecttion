@@ -1,31 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-// class CustomListItem extends StatelessWidget{
-
-//   final String word;
-//   final String example;
-//   final String translate;
-
-//   const CustomListItem({Key key, this.word, this.example, this.translate}) : super(key: key);
-
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Padding(
-//       padding: const EdgeInsets.symmetric(vertical: 5),
-//       child: Row(
-//         crossAxisAlignment: CrossAxisAlignment.start,
-//         children: [
-//           Expanded(
-//             flex: 2,
-//             child: word,)
-//         ],
-//       ));
-      
-//   }
-
-// }
 class CustomListItem extends StatelessWidget{
   
   final String word;
